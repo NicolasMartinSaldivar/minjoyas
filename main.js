@@ -82,7 +82,7 @@ class Pedido{
 }
 function pedidoProducto(){
     while(!producto || producto == 0 || producto > 4){
-        producto = parseInt("¿Que producto queres comprar?\n 1:Cadenita($950)\n 2:Anillo($500)\n 3:Cadenita2($1100)\n 4:Anteojos($6000)");
+        producto = parseInt(prompt("¿Que producto queres comprar?\n 1:Cadenita($950)\n 2:Anillo($500)\n 3:Cadenita2($1100)\n 4:Anteojos($6000)"));
     }
     switch(producto){
         case 1:
@@ -120,3 +120,7 @@ pedido.calcularTotal();
 
 alert("Detalle del pedido:\n"+" - " + pedido.producto + " x " + pedido.cantidad + " :$ " + pedido.precio * pedido.cantidad + "\n" + " IVA 21% $" + pedido.calcularIva() +
 "\n" + " - Costo de envio $" + pedido.envio + "\n" + "total = $" + pedido.total) 
+
+
+
+
