@@ -23,12 +23,12 @@ nav{
     
     
 }
-ul{
+nav ul{
     height: 40px;
     width: 80%;
     
 }
-li{
+nav li{
     list-style: none;
     display: inline-block;
     text-align: center;
@@ -36,16 +36,51 @@ li{
     border-bottom: 2px grey dotted;
     color: grey;
 }
-a{
+nav a{
     text-decoration: none;
    
 
 }
+/*INDEX */
+.preguntas-dudas{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 30px;
+}
+.preguntas-dudas div{
+    display: grid;
+    margin: 20px;
+    align-self:flex-start;
+}
+
+.preguntas-dudas p{
+    font-size: 25px;
+    word-spacing: 3px;
+    vertical-align:bottom;
+}
+
+
 
 /*MAIN */
 
 /*SECTION */
+.producto{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    
+}
 
+.producto li{
+    list-style: none;
+    display: inline;
+    
+}
+
+.producto img{
+    width: 300px;
+    height: 400px;
+}
 /*FOOTER*/
 
 

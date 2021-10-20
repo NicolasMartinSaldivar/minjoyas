@@ -110,6 +110,20 @@ function pedidoProducto(){
     return new Pedido(producto,precio,cantidadProducto);
 }
 
+const pedidos = [];
+
+const pedido1 = new Pedido("Anillo",500);
+pedidos.push(pedido1);
+const pedido2 = new Pedido("Aros",1000);
+pedido.push(pedido2);
+
+pedidos.push(new Pedido("collar", 1500));
+
+for(const pedido of pedidos)
+    pedido.calcularTotal();
+
+console.log(pedidos);
+
 alert("Bienvenidx a la tienda");
 
 const pedido = pedidoProducto();
@@ -120,7 +134,3 @@ pedido.calcularTotal();
 
 alert("Detalle del pedido:\n"+" - " + pedido.producto + " x " + pedido.cantidad + " :$ " + pedido.precio * pedido.cantidad + "\n" + " IVA 21% $" + pedido.calcularIva() +
 "\n" + " - Costo de envio $" + pedido.envio + "\n" + "total = $" + pedido.total) 
-
-
-
-
