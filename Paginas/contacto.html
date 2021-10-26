@@ -24,9 +24,22 @@
         </ul>
     </nav>
     <section class="contacto">
-        <form action="POST">
-            <label for="Nombre">Nombre</label>
-            <input type="text">
+        <form action="POST" class="form">
+            <div class="form-header">
+                <h2 class="form-title">Contacto</h2>
+            </div>
+
+            <label for="nombre" class="form-label">Nombre</label>
+            <input type="text" name="nombre" id="" class="form-input">
+            <label for="Apellido" class="form-label">Apellido</label>
+            <input type="text" name="apellido" id="" class="form-input">
+            <label for="celular" class="form-label">Celular</label>
+            <input type="tel" name="celular" id="" class="form-input">
+            <label for="Correo" class="form-label">Correo</label>
+            <input type="email" name="Correo" id="" class="form-input">
+            <label for="mensaje" class="form-label">Mensaje</label>
+            <textarea name="mensaje" id="" cols="30" rows="10" placeholder="Escriba su mensaje"></textarea>
+            <button type="submit" value="enviar" id="clickBox">Enviar</button>
         </form>
     </section>
 
