@@ -7,39 +7,46 @@ header{
     background-color: gray;
     margin: 0;
     padding: 0;
-    text-align: right;
-    padding-right: 200px;
     height: 6vh;
 }
-header a{
-    display: inline-block;
-    margin: 10px;
+header p{
     color: black ;
     font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
 }
 
 /*NAV */
 nav{
-    
+    text-align: center;
+    width: 55%;
+    margin: auto;
     
 }
 nav ul{
     height: 40px;
-    width: 80%;
+    width: 90%;
     
 }
 nav li{
     list-style: none;
     display: inline-block;
     text-align: center;
-    margin: 20px;
-    border-bottom: 2px grey dotted;
-    color: grey;
+    margin: 10px;    
 }
 nav a{
     text-decoration: none;
-   
-
+    font-size: 25px;
+    color: black;
+    text-transform: uppercase;
+}
+nav a:hover{
+    border-bottom: 3px solid gray;
+    
+    border-radius: 2px;
+    transition: all .3s ease 0s;
 }
 /*INDEX */
 .preguntas-dudas{
@@ -58,6 +65,7 @@ nav a{
     font-size: 25px;
     word-spacing: 3px;
     vertical-align:bottom;
+    font-weight: 300;
 }
 
 
@@ -85,6 +93,7 @@ nav a{
 /*FOOTER*/
 
 
+
 /*Formulario*/
 .contacto .form{
     width: 90%;
@@ -97,9 +106,9 @@ nav a{
 }
 
 .contacto .form .form-header .form-title{
-    font-weight: normal;
+    font-weight:800;
     font-family: 'Source Sans Pro', 'sans-serif';
-    color: #ff851b;
+    color: #33302d;
     text-align: center;
     padding: 14px 0;
     
@@ -107,25 +116,22 @@ nav a{
 }
 .contacto .form .form-label{
     display: block;
-    color: #ff851b;
+    color: #33302d;
     font-size: 16px;
     font-family: 'Source Sans Pro', sans-serif;
     position: relative;
 }
-.contacto .form .form-input .form-textarea{
-    background: rgba(0, 0, 0, .7);
+.contacto .form .form-input, .form-textarea{
+    background: rgba(85, 81, 81, 0.671);
     border: none;
     outline: none;
-    border-bottom: 2px solid #ff851b;
+    border-bottom: 2px solid #ad8867;
     width: 100%;
     margin-bottom: 20px;
     border-radius: 2px;
     font-size: 14px;
     font-family: 'Source Sans Pro, sans-serif';
     color: #fff;
-
-
-
 }
 .form input label{
     border: none;
@@ -134,10 +140,10 @@ nav a{
     margin: 10px;
 }
 .contacto textarea{
-    background: rgba(0, 0, 0, .7);
+    background: rgba(85, 81, 81, 0.671);
     border: none;
     outline: none;
-    border-bottom: 2px solid #ff851b;
+    border-bottom: 2px solid #c4956c;
     width: 100%;
     padding: 12px;
     margin-bottom: 20px;
@@ -153,11 +159,11 @@ nav a{
     width: 100%;
     font-family: 'Source Sans Pro', sans-serif;
     outline: none;
-    background: #ff851b;
+    background: #3f3d3b;
     font-size: 16px;
     border: none;
     color: #fff;
     padding: 15px 0;
     cursor: pointer;
     border-radius: 15px;
-}
+}  
