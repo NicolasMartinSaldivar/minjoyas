@@ -23,6 +23,7 @@ nav{
     text-align: center;
     width: 55%;
     margin: auto;
+    margin-top: 40px;
     
 }
 nav ul{
@@ -49,6 +50,24 @@ nav a:hover{
     transition: all .3s ease 0s;
 }
 /*INDEX */
+.carrousel{
+    width: 100%;
+    position: relative;
+    height: 780px;
+}
+.botones{
+    font-size: 30px;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    border-radius: 5%;
+    background-color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    font-weight: bold;
+    position: absolute;
+    box-shadow: 0 0 10px rgba(255,255, 255, 0.6);
+}
+
 .preguntas-dudas{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -85,10 +104,19 @@ nav a:hover{
     display: inline;
     
 }
+.producto h3{
+    text-align: center;
+    width: 300px;
+}
 
 .producto img{
     width: 300px;
     height: 400px;
+    border-radius: 4px;
+}
+
+.producto div{
+
 }
 /*FOOTER*/
 
