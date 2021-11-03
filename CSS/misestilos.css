@@ -45,38 +45,133 @@ nav a{
 }
 nav a:hover{
     border-bottom: 3px solid gray;
-    
     border-radius: 2px;
     transition: all .3s ease 0s;
 }
 /*INDEX */
-.carrousel{
-    width: 100%;
+/*CARROUSEL */
+#c-slider{
+    margin:auto;
+    width: 90%;
+    max-width: 900px;
     position: relative;
-    height: 780px;
+    overflow: hidden;
 }
-.botones{
-    font-size: 30px;
-    width: 70px;
-    height: 70px;
-    line-height: 70px;
-    border-radius: 5%;
-    background-color: rgba(0, 0, 0, 0.7);
-    text-align: center;
-    font-weight: bold;
+
+#slider{
+    display: flex;
+    width: 300%;
+}
+#slider section{
+    width: 100%;
+}
+#slider img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+#btn-prev, #btn-next{
+    width: 40px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.5);
     position: absolute;
-    box-shadow: 0 0 10px rgba(255,255, 255, 0.6);
+    top: 50%;
+    transform: translateY(-50%);
+    line-height: 40px;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 50%;
+    font-family: monospace;
+    cursor: pointer;
+}
+#btn-prev:hover , #btn-next:hover{
+    background: rgba(255, 255, 255, 1);
+}
+#btn-prev{
+    left: 10px;
+}
+#btn-next{
+    right: 10px;
+}
+
+.frase{
+    width: 90%;
+    margin: 50px auto;
+}
+
+
+
+.catalogo{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1em;
+    grid-auto-rows: minmax(200px,200px);
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+    
+}
+.catalogo a{
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    margin: 20px;
+    position: absolute;
+    
+}
+
+
+.elemento1{
+    grid-column: 1/2;
+    grid-row: 1/3;
+    background-color: red;
+    border-radius: 10px;
+    align-items: flex-start;
+    overflow: hidden;
+    }
+.elemento1 img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.elemento2{
+    grid-column: 2/4;
+    background-color: blue;
+    border-radius: 10px;
+    background-clip: border-box;
+    overflow: hidden;    
+}
+
+.elemento3{
+    grid-column: 2/3;
+    background-color: green;
+    border-radius: 10px;
+    overflow:hidden
+}
+
+.elemento4{
+    grid-column: 3/4;
+    background-color:black;
+    border-radius: 10px;
+    overflow: hidden; 
+    overflow-wrap: normal;
 }
 
 .preguntas-dudas{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin: 30px;
+    margin: auto;
+    width: 80%;
+    
 }
 .preguntas-dudas div{
     display: grid;
     margin: 20px;
     align-self:flex-start;
+    
     
 }
 
@@ -86,17 +181,14 @@ nav a:hover{
     vertical-align:bottom;
     font-weight: 300;
 }
-
-
-
 /*MAIN */
 
 /*SECTION */
 .producto{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    
-    
+    width: 90%;
+    margin: auto;
 }
 
 .producto li{

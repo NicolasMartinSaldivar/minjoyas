@@ -1,0 +1,37 @@
+[  "aros"[
+    {"id":1,
+    "name":"Anillo 1",
+    "price":500,
+    "description": "anillo 1"
+},
+{"id":2,
+    "name":"Anillo 2",
+    "price":500,
+    "description": "anillo 2"
+},
+{"id":3,
+    "name":"Anillo 3",
+    "price":500,
+    "description": "anillo 3"
+},
+{"id":4,
+    "name":"Anillo 4",
+    "price":500,
+    "description": "anillo 4"
+},
+{"id":5,
+    "name":"Anillo 5",
+    "price":500,
+    "description": "anillo 5"
+},
+{"id":6,
+    "name":"Anillo 6",
+    "price":500,
+    "description": "anillo 6"
+},
+
+]
+
+
+
+]

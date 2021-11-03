@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../Min/CSS/misestilos.css">
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     
     <title>Min Joyas</title>
 </head>
@@ -27,22 +28,43 @@
     </nav>
     <main>
         
-        <input type="button" value="Comprar" id="agregar">
-            
-        
-        <div class="carrousel">
-            <div class="botones">
-                &#60
-            </div>
-
-            <div class="botones">
-                &#62
-            </div>
-            <img src="" alt="">
-        </div>
+       <div id="c-slider">
+           <div id="slider">
+               <section class="carrousel"><img src="../Min/Imagenes/Carrousel/baner 1.png" alt="baner1"></section>
+               <section class="carrousel"><img src="../Min/Imagenes/Carrousel/baner 2.png" alt="baner2"></section>
+               <section class="carrousel"><img src="../Min/Imagenes/Carrousel/baner 3.png" alt="baner3"></section>
+               
+           </div>
+           <div id="btn-prev">&#60</div>
+           <div id="btn-next">&#62</div>
+       </div>
        
         
     </main>
+    <div class="frase">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum voluptate explicabo vero.
+         Eligendi, minima esse beatae nisi eius culpa sequi similique reprehenderit voluptates soluta ut molestiae error,
+          libero pariatur nobis?</p>
+    </div>
+
+    <section class="catalogo">
+        <div class="elemento1">
+            <a href="../Min/Paginas/collares.html">Collares</a>
+            <img src="../Min/Imagenes/Main/Diseño sin título.png" alt="collares">
+        </div>
+        <div class="elemento2">
+            <a href="../Min/Paginas/anillos.html">Anillos</a>
+            <img src="../Min/Imagenes/Main/Anillo.png" alt="">
+        </div>
+        <div class="elemento3">
+            <a href="../Min/Paginas/aros.html">Aros</a>
+            <img src="../Min/Imagenes/Main/Aros.png" alt="">
+        </div>
+        <div class="elemento4">
+            <a href="../Min/Paginas/pulseras.html">Pulseras</a>
+            <img src="../Min/Imagenes/Main/Pulsera.png" alt="">
+        </div>
+    </section>
 
 
 
@@ -78,6 +100,9 @@
 
 
     <script src="../Min/main.js"></script>
+    <script src="../Min/Javascript/slider.js"></script>
+    <script src="../Min/Javascript/jquery-3.6.0.min.js"></script>
     
+     
 </body>
 </html>
