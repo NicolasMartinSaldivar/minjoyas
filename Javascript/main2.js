@@ -27,31 +27,3 @@ $(document).ready(()=>{
 })
 
 
-$(document).ready(()=>{
-    $('#botonEnviar').click(function(){
-        if(validarForm()){
-            setTimeout(()=>{
-                let res = Math.floor(Math.random()*2);
-                mostrarMensaje(res);
-            })
-        }
-    })
-
-})
-function mostrarMensaje(res){
-    $('.contacto').fadeOut("slow");
-    if(res ==0){
-        $('#exito').delay(500).fadeIn("slow");
-    }else{
-        $('#fracaso').delay(500).fadeIn("slow");
-    }
-}
-function validarForm(){
-    if($('#nombre').val()=''){
-        alert("El campo nombre no puede ser vacío");
-        $('#nombre').focus();
-        return false;
-    }
-    if($())
-
-}
