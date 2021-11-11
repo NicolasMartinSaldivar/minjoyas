@@ -1,3 +1,8 @@
+// $(document).ready(function(){
+//     alert('hola')
+// })
+
+
 let slider = $('#slider');
 let siguiente = $('#btn-next');
 let anterior = $('#btn-prev');

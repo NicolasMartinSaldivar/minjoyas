@@ -167,6 +167,9 @@ nav a:hover{
     width: 80%;
     
 }
+.preguntas-dudas img{
+    width: 80%;
+}
 .preguntas-dudas div{
     display: grid;
     margin: 20px;
@@ -210,7 +213,28 @@ nav a:hover{
 .producto div{
 
 }
+
+.cross{
+    color: pink;
+    font-size: 50px;
+}
 /*FOOTER*/
+footer{
+    background-color:  rgba(34, 34, 219, 0.801);
+}
+footer div{
+    display: grid;
+
+}
+
+footer img{
+    display: inline;
+}
+
+footer a{
+    text-decoration: none;
+    display: inline;
+}
 
 
 
