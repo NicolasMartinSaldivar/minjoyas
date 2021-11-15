@@ -26,4 +26,59 @@ $(document).ready(()=>{
     }
 })
 
+$(document).ready(function(){
+    $('#botonEnviar').click(function(){
+        if(validarForm()){
+            setTimeout(()=>{
+                let resultado = Math.floor(Math.random()*2);
+                mostrarMensaje(res);
+            },2000)
 
+        }
+
+
+    })
+})
+function mostrarMensaje(res){
+    $('#formulario').fadeOut("slow");
+    if(res ==0){
+        $('#exito').delay(500).fadeIn("slow");
+    }else{
+        $('#fracaso').delay(500).fadeIn("slow");
+    }
+}
+
+function validarForm(){
+    if($('#nombre').val() == ''){
+        alert('El campo nombre no puede estar vacío');
+        $('#nombre').focus();
+        return false;
+    }
+    if($('#celular').val()==''){
+        alert('El campo celular no puede estar vacío');
+        $('#celular').focus();
+        return false;
+    }
+    if($('#correo').val()==''){
+        alert('El campo correo no puede estar vacío');
+        return false;
+    }
+
+    return false;
+
+}
+
+
+/*Visibilidad de Guia de pasos*/
+
+jQuery(function(){
+    $("#button").on("click",function(){
+        if($("#guia").is(":visible")){
+            $("#guia").hide();
+            $("#button").text("Mostrar");
+        }else{
+            $("#guia").show();
+            $("#button").text("Ocultar");
+        }
+    })
+})

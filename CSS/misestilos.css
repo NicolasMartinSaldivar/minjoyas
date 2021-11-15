@@ -188,15 +188,20 @@ nav a:hover{
 
 /*SECTION */
 .producto{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
     width: 90%;
     margin: auto;
+    margin-top: 50px;
+}
+.producto ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .producto li{
     list-style: none;
     display: inline;
+    margin: auto;
+    
     
 }
 .producto h3{
@@ -209,21 +214,26 @@ nav a:hover{
     height: 400px;
     border-radius: 4px;
 }
-
-.producto div{
-
+.info{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.info > p{
+    text-align: center;
 }
 
-.cross{
-    color: pink;
-    font-size: 50px;
+.botonComprar{
+    width: 80%;
+    margin: auto;
+    border: #33302d solid 3px;
+    background-color: #fff;
 }
 /*FOOTER*/
 footer{
     background-color:  rgba(34, 34, 219, 0.801);
 }
 footer div{
-    display: grid;
+    grid-template-rows: 1fr;
 
 }
 
@@ -310,4 +320,6 @@ footer a{
     padding: 15px 0;
     cursor: pointer;
     border-radius: 15px;
-}  
+} 
+/*Guia de compra*/
+

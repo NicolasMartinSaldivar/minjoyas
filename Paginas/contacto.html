@@ -25,16 +25,16 @@
         </ul>
     </nav>
     <section class="contacto">
-        <form action="post" class="form">
+        <form id="formulario" action="post" class="form">
             <div class="form-header">
                 <h2 class="form-title">Contacto</h2>
             </div>
-            <label for="nombre" class="form-label" id="nombre"><b>Nombre</b></label>
-            <input type="text" name="nombre" id="" class="form-input" required="required">
-            <label for="celular" class="form-label"><b>Celular</b></label>
-            <input type="tel" name="celular" id="" class="form-input" required="required">
+            <label for="nombre" class="form-label" ><b>Nombre</b></label>
+            <input type="text" name="nombre" id="nombre" class="form-input" required="required">
+            <label for="celular" class="form-label" ><b>Celular</b></label>
+            <input type="tel" name="celular" id="celular" class="form-input" required="required">
             <label for="Correo" class="form-label"><b>Correo</b></label>
-            <input type="email" name="Correo" id="" class="form-input" required="required">
+            <input type="email" name="Correo" id="correo" class="form-input" required="required">
             <label for="mensaje" class="form-label"><b>Mensaje</b></label>
             <textarea name="mensaje" id="" cols="30" rows="10" placeholder="Escriba su mensaje"></textarea>
             <button type="submit" value="enviar" id="botonEnviar">Enviar</button>
@@ -47,6 +47,8 @@
             <h3>No se pudo enviar los datos</h3>
         </div>
     </section>
+
+    
 
     <footer>
         <div>
