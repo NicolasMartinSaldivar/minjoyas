@@ -1,0 +1,42 @@
+[{  "id":1,
+    "name":"Anillo 1",
+    "price":500,
+    "description": "anillo 1",
+    "image":"/Imagenes/Anillos/anillo(1).jpeg"
+},
+{   "id":2,
+    "name":"Anillo 2",
+    "price":500,
+    "description": "anillo 2",
+    "image":"../Imagenes/Anillos/anillo(2).jpeg"
+},
+{   "id":3,
+    "name":"Anillo 3",
+    "price":500,
+    "description": "anillo 3",
+    "image":"../Imagenes/Anillos/anillo(3).jpeg"
+},
+{   "id":4,
+    "name":"Anillo 4",
+    "price":500,
+    "description": "anillo 4",
+    "image":"../Imagenes/Anillos/anillo(4).jpeg"
+},
+{   "id":5,
+    "name":"Anillo 5",
+    "price":500,
+    "description": "anillo 5",
+    "image":"../Imagenes/Anillos/anillo(5).jpeg"
+},
+{   "id":6,
+    "name":"Anillo 6",
+    "price":500,
+    "description": "anillo 6",
+    "image":"../Imagenes/Anillos/Anillo(6).jpeg"
+},
+{   "id":7,
+    "name":"Anillo 7",
+    "price":500,
+    "description": "anillo 7",
+    "image":"Imagenes/Anillos/Anillo(7).jpeg"
+}]

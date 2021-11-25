@@ -1,0 +1,42 @@
+[{  "id":1,
+    "name":"Pulsera 1",
+    "price":500,
+    "description": "Pulsera 1",
+    "image":"../Imagenes/Pulseras/pulsera(1).jpg"
+},
+{   "id":2,
+    "name":"Pulsera 2",
+    "price":500,
+    "description": "Pulsera 2",
+    "image":"../Imagenes/Pulseras/pulsera(2).jpg"
+},
+{   "id":3,
+    "name":"Pulsera 3",
+    "price":500,
+    "description": "Pulsera 3",
+    "image":"../Imagenes/Pulseras/pulsera(3).jpg"
+},
+{   "id":4,
+    "name":"Pulsera  4",
+    "price":500,
+    "description": "Pulsera 4",
+    "image":"../Imagenes/Pulseras/pulsera(4).jpg"
+},
+{   "id":5,
+    "name":"Pulsera 5",
+    "price":500,
+    "description": "Pulsera 5",
+    "image":"../Imagenes/Pulseras/pulsera(5).jpg"
+},
+{   "id":6,
+    "name":"Pulsera 6",
+    "price":500,
+    "description": "Pulsera 6",
+    "image":"../Imagenes/Pulseras/pulsera(6).jpg"
+},
+{   "id":7,
+    "name":"Pulsera 7",
+    "price":500,
+    "description": "pulsera 7",
+    "image":"../Imagenes/Pulseras/pulsera(7).jpg"
+}]
